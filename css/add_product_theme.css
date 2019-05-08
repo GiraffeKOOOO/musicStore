@@ -1,0 +1,185 @@
+html{
+	width: 1920px;
+	overflow-x: hidden;
+}
+
+body{
+	font-family: Arial;
+	width: 1900px;
+	position: static;
+}
+
+/*----------starting stuff------------*/
+
+#cookies{
+	position: relative;
+	left: 600px;
+	width: 690px;
+}
+
+/*----------just home.php------------*/
+
+#main_container{
+	width: 1800px;
+	margin-left: 50px;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;	
+}
+
+/*----------main container------------*/
+
+#top-bar{
+	position: static;
+	background-color: rgba(68,68,68,0.18);
+	border-radius: 4px;
+}
+
+#top-bar-1{
+	display: flex;
+	margin-left: 100px;
+	margin-right: 40px;
+}
+
+#logo{
+	width: 150px;
+	height: 150px;
+}
+
+#search-bar {
+	margin-left: 40px;
+	margin-top: 80px;
+}
+
+#search-bar input[type=text]{
+	padding: 9px;
+	font-size: 20px;
+	width: 900px;
+}
+
+#header-logout-btn{
+	width: 150px;
+	height: 40px;
+	margin-left: 60px;
+	margin-top: 40px;
+
+	font-size: 20px;
+}
+
+#account-btn{
+	width: 150px;
+	height: 40px;
+
+	font-size: 20px;
+}
+
+#submit-search-btn{
+	width: 50px;
+	height: 45px;
+}
+
+#top-bar-2{
+	margin-left: 240px;
+	margin-right: 40px;
+}
+
+#menu-bar{
+	background-color: rgba(68,68,68,0.2);
+	display: inline-block;
+}
+
+#menu-bar td{
+	padding: 15px;
+	padding-left: 35px;
+	padding-right: 35px;
+
+	background-color: rgb(242, 242, 242);
+}
+
+#menu-bar td:hover{
+	border-style: solid;
+	border-color: rgb(178, 255, 112);
+	border-radius: 4px;
+	border-width: 1px;
+
+	 -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+}
+
+#menu-bar a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+/*----------nav bar + buttons------------*/
+
+#add-panel-container{
+	border-radius: 5px;
+	width: 800px;
+
+	position: static;
+	margin-left: 23%;
+	margin-top: 30px;
+	padding-bottom: 20px;
+
+	background-color: rgba(68,68,68,0.18);
+
+}
+
+#add-panel-title{
+	font-size: 20px;
+	margin-left: 40%;
+}
+
+#add-panel-success{
+	font-size: 20px;
+	padding-top: 20px;
+	margin-left: 34%;
+}
+
+#add-panel-fail{
+	font-size: 20px;
+	padding-top: 20px;
+	margin-left: 34%;
+}
+
+/*---------- separator ------------*/
+
+#add-product-table{
+	margin-left: 20%;
+}
+/*---------- separator ------------*/
+
+#add-product-button{
+	margin-top: 20px;
+	margin-left: 40%;
+	width: 120px;
+	height: 50px;
+	font-size: 16px;
+}
+
+#reset-button{
+	margin-top: 20px;
+	margin-left: 40%;
+	width: 120px;
+	height: 50px;
+	font-size: 16px;
+}
+
+#back-button{
+	margin-top: 20px;
+	margin-left: 40%;
+	width: 120px;
+	height: 50px;
+	font-size: 16px;
+}
+
+#back-icon{
+	margin-right: 5px;
+	width: 20px;
+	height: 20px;
+}

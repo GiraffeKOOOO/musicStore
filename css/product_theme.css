@@ -1,0 +1,306 @@
+html{
+	width: 1920px;
+	overflow-x: hidden;
+}
+
+body{
+	font-family: Arial;
+	width: 1900px;
+	position: static;
+}
+
+/*----------starting stuff------------*/
+
+#main_container{
+	width: 1800px;
+	margin-left: 50px;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;	
+}
+
+/*----------main container------------*/
+
+#top-bar{
+	position: static;
+	background-color: rgba(68,68,68,0.18);
+	border-radius: 4px;
+}
+
+#top-bar-1{
+	display: flex;
+	margin-left: 100px;
+	margin-right: 40px;
+}
+
+#logo{
+	width: 150px;
+	height: 150px;
+}
+
+#search-bar {
+	margin-left: 40px;
+	margin-top: 80px;
+}
+
+#search-bar input[type=text]{
+	padding: 9px;
+	font-size: 20px;
+	width: 900px;
+}
+
+#header-login-btn{
+	width: 150px;
+	height: 40px;
+	margin-left: 60px;
+	margin-top: 40px;
+
+	font-size: 20px;
+}
+
+#account-btn{
+	width: 150px;
+	height: 40px;
+
+	font-size: 20px;
+}
+
+#submit-search-btn{
+	width: 50px;
+	height: 45px;
+}
+
+#top-bar-2{
+	margin-left: 240px;
+	margin-right: 40px;
+}
+
+#menu-bar{
+	background-color: rgba(68,68,68,0.2);
+	display: inline-block;
+}
+
+#menu-bar td{
+	padding: 15px;
+	padding-left: 35px;
+	padding-right: 35px;
+
+	background-color: rgb(242, 242, 242);
+}
+
+#menu-bar td:hover{
+	border-style: solid;
+	border-color: rgb(178, 255, 112);
+	border-radius: 4px;
+	border-width: 1px;
+
+	 -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+}
+
+#menu-bar a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+/*----------nav bar + buttons------------*/
+
+#product-container{
+	margin-left: 320px;
+	margin-right: 10px;
+	margin-top: 30px;
+
+	padding-top: 10px;
+	padding-left: 60px;
+
+	width: 1200px;
+
+}
+
+/*----------product container settings------------*/
+
+#product-left{
+	width: 600px;
+	height: 700px;
+	margin-left: 20px;
+
+	background-color: rgba(68,68,68,0.18);
+
+}
+
+#product-main-image{
+	border-radius: 5px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	/*border for identification*/
+
+	width: 500px;
+	height: 500px;
+
+	margin-left: 50px;
+}
+
+.product-table-gallery{
+	border-radius: 5px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	/*border for identification*/
+
+	width: 100px;
+	height: 100px;
+
+	margin-left: 50px;
+}
+
+#product-left h1{
+	margin-left: 180px;
+}
+
+/*----------product left settings------------*/
+
+#product-right{
+	width: 500px;
+	height: 700px;
+
+	position: relative;
+	margin-left: 630px;
+	margin-top: -722px;
+
+	background-color: rgba(68,68,68,0.18);
+}
+
+.product-right-text{
+	padding-left: 20px;
+}
+
+#basket-btn{
+	height: 40px;
+	font-size: 20px;
+
+	margin-left: 160px;
+	margin-top: 10px;
+
+}
+
+#basket-icon{
+	margin-left: 10px;
+	width: 25px;
+	height: 25px;
+}
+
+#product-description{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#product-description-title{
+
+	font-size: 20px;
+
+}
+
+/*----------product right settings------------*/
+
+#footer{
+	border-radius: 4px;
+	margin-left: 40px;
+	margin-right: 180px;
+	margin-top: 30px;
+	padding: 20px;
+	background-color: rgba(68,68,68,0.18);
+	position: relative;
+	height: 350px;
+}
+
+/*----------footer div------------*/
+
+#faq{
+	border-radius: 5px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	/*border for identification*/
+
+	width: 500px;
+	height: 350px;
+
+}
+
+#faq-p{
+	margin-left: 100px;
+	font-size: 20px;
+}
+
+#faq td{
+	padding: 6px;
+}
+
+/*----------faq div------------*/
+
+#general-info{
+	border-radius: 5px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	/*border for identification*/
+
+	width: 500px;
+	height: 350px;
+
+	margin-left: 518px;
+	margin-top: -352px;
+}
+
+#general-info-p{
+	margin-left: 140px;
+	font-size: 20px;
+}
+
+#general-info td{
+	padding: 6px;
+}
+
+/*----------general info div------------*/
+
+#contact-info{
+	border-radius: 5px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	/*border for identification*/
+
+	width: 500px;
+	height: 350px;
+
+	margin-left: 1036px;
+	margin-top: -352px;
+	font-size: 22px;
+}
+
+#contact-p{
+	margin-left: 200px;
+	font-size: 25px;
+}
+
+#tel-ico{
+	width: 30px;
+	height: 30px;
+}
+
+#email-ico{
+	width: 30px;
+	height: 30px;
+}
+
+#clock-ico{
+	width: 30px;
+	height: 30px;
+}
+
+/*----------contact div------------*/

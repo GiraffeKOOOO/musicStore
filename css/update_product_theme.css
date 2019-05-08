@@ -1,0 +1,232 @@
+html{
+	width: 1920px;
+	overflow-x: hidden;
+}
+
+body{
+	font-family: Arial;
+	width: 1900px;
+	position: static;
+}
+
+/*----------starting stuff------------*/
+
+#cookies{
+	position: relative;
+	left: 600px;
+	width: 690px;
+}
+
+/*----------just home.php------------*/
+
+#main_container{
+	width: 1800px;
+	margin-left: 50px;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;	
+}
+
+/*----------main container------------*/
+
+#top-bar{
+	position: static;
+	background-color: rgba(68,68,68,0.18);
+	border-radius: 4px;
+}
+
+#top-bar-1{
+	display: flex;
+	margin-left: 100px;
+	margin-right: 40px;
+}
+
+#logo{
+	width: 150px;
+	height: 150px;
+}
+
+#search-bar {
+	margin-left: 40px;
+	margin-top: 80px;
+}
+
+#search-bar input[type=text]{
+	padding: 9px;
+	font-size: 20px;
+	width: 900px;
+}
+
+#header-logout-btn{
+	width: 150px;
+	height: 40px;
+	margin-left: 60px;
+	margin-top: 40px;
+
+	font-size: 20px;
+}
+
+#account-btn{
+	width: 150px;
+	height: 40px;
+
+	font-size: 20px;
+}
+
+#submit-search-btn{
+	width: 50px;
+	height: 45px;
+}
+
+#top-bar-2{
+	margin-left: 240px;
+	margin-right: 40px;
+}
+
+#menu-bar{
+	background-color: rgba(68,68,68,0.2);
+	display: inline-block;
+}
+
+#menu-bar td{
+	padding: 15px;
+	padding-left: 35px;
+	padding-right: 35px;
+
+	background-color: rgb(242, 242, 242);
+}
+
+#menu-bar td:hover{
+	border-style: solid;
+	border-color: rgb(178, 255, 112);
+	border-radius: 4px;
+	border-width: 1px;
+
+	 -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+}
+
+#menu-bar a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+/*----------nav bar + buttons------------*/
+
+#update-panel-container{
+	border-radius: 5px;
+	width: 48%;
+	padding-right: 30px;
+
+	position: relative;
+	margin-left: 22%;
+	margin-top: 30px;
+	padding-bottom: 20px;
+
+	background-color: rgba(68,68,68,0.18);
+
+}
+
+#update-panel-title{
+	font-size: 20px;
+	padding-top: 10px;
+	margin-left: 40%;
+}
+
+#update-panel-success{
+	font-size: 20px;
+	padding-top: 20px;
+	margin-left: 34%;
+}
+
+#update-panel-fail{
+	font-size: 20px;
+	padding-top: 20px;
+	margin-left: 34%;
+}
+
+#back-button{
+	margin-left: 20px;
+	width: 120px;
+	height: 50px;
+	font-size: 16px;
+}
+
+#search-div{
+	display: flex;
+}
+
+#search-bar-span{
+	margin-left: 20px;
+}
+
+#search-bar-id{
+	font-size: 22px;
+	height: 40px;
+	width: 600px;
+}
+
+#search-button-id{
+	width: 35px;
+	height: 35px;
+}
+
+#back-icon{
+	margin-right: 5px;
+	width: 20px;
+	height: 20px;
+}
+
+/*---------- separator ------------*/
+
+#product-table{
+	border-radius: 5px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	/*border for identification*/
+
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.table-heading{
+	border-radius: 5px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	/*border for identification*/
+
+	padding-left: 10px;
+}
+
+.scripted-data img{
+	width: 100px;
+	height: 100px;
+}
+
+.scripted-data td{
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#update-info-text{
+	margin-left: 33%;
+}
+
+.select-button{
+	padding: 2px 6px 2px 6px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+
+	text-decoration: none;
+	background-color: #EEEEEE;
+	color: black;
+}
